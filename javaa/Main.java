@@ -43,7 +43,7 @@ public class Main {
 				}
 			}
 			if (studentMark / markCount <= 5) {
-				badStudents.add(studentName + " " + badMarksCount);
+				badStudents.add(studentName + badMarksCount);
 			}
 		}
 		sc.close();
